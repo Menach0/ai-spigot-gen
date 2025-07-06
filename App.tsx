@@ -1,11 +1,11 @@
 
 import React, { useState, useCallback } from 'react';
 import JSZip from 'jszip';
-import { generatePluginCode } from './services/geminiService.ts';
-import { GeneratedCode, ActiveTab } from './types.ts';
-import { CodeBlock } from './components/CodeBlock.tsx';
-import { SparklesIcon } from './components/icons/SparklesIcon.tsx';
-import { DownloadIcon } from './components/icons/DownloadIcon.tsx';
+import { generatePluginCode } from './services/geminiService';
+import { GeneratedCode, ActiveTab } from './types';
+import { CodeBlock } from './components/CodeBlock';
+import { SparklesIcon } from './components/icons/SparklesIcon';
+import { DownloadIcon } from './components/icons/DownloadIcon';
 
 const createPomXml = (pluginName: string, version: string, className: string, packageName: string): string => {
     const groupId = packageName;
