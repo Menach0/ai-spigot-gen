@@ -1,0 +1,5 @@
+{
+  "name": "Minecraft Spigot Plugin Generator",
+  "description": "An AI-powered tool to generate Java code and configuration for any Minecraft Spigot plugin based on a description.",
+  "requestFramePermissions": []
+}
